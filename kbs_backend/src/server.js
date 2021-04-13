@@ -16,7 +16,7 @@ const productRoutes = require('./routes/product');
 const cartRoutes = require('./routes/cart');
 //mongoDB connection
 //mongodb+srv://root:<password>@cluster0.to93b.mongodb.net/<dbname>?retryWrites=true&w=majority
-mongoose.connect(`mongodb+srv://${process.env.MONGO_DB_USER}:${process.env.MONGO_DB_PASSWORD}@cluster0.to93b.mongodb.net/${process.env.MONGO_DB_DATA}?retryWrites=true&w=majority`, 
+mongoose.connect(`your localDB link`, 
     {
         useNewUrlParser: true, 
         useUnifiedTopology: true,
